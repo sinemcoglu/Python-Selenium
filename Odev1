@@ -1,4 +1,4 @@
-PHYTON'DA VERI TIPLERI
+PHYTON'DA VERI TIPLERI:
 str = metinsel ifadeleri tanımlamak için kullanılan veri tipidir. 
 int = tam sayıları tanımlamak için kullanılan veri tipidir.
 float = ondalıklı, virgüllü sayıları tanımlamak için kullanılan veri tipidir.
@@ -7,10 +7,15 @@ bool = true/false mantığıyla doğruysa yanlışsa şeklinde koşul belirtmek 
 list/tuple/range = dizi tanımlamak için yani bir gruplama yaparak grubun elemanlarını sadece numaralarıyla ayırıp tek bir liste adıyla tanımlamak için kullanılan veri tipidir.
 
 
+Kodlama.io Sitesinde Değişken Olarak Kullanılan VERİLER - VERİ TİPLERİ:
+list = profile tıklayınca açılan listeyi oluşturmak için kullanılan dizi.
+int = eğitimlerin tamamlanma yüzdeleri.
+string = Kodlama.io yazısı ve ücretsiz yazısı.
+anasayfa başlıkları da bir dizi ile gruplanabilir ya da string olarak oluşturulabilir.
 
 
 
-Kodlama.io Sitesindeki Şart Blokları:
+Kodlama.io Sitesindeki ŞART BLOKLARI:
 
 kategori = ["Tümü", "Programlama(7)"]
 egitmen = ["Tümü", "Engin Demiroğ" ,"Halit Enes Kalaycı"]
