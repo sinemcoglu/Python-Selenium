@@ -10,7 +10,7 @@ list/tuple/range = dizi tanımlamak için yani bir gruplama yaparak grubun elema
 Kodlama.io Sitesinde Değişken Olarak Kullanılan VERİLER - VERİ TİPLERİ:
 list = profile tıklayınca açılan listeyi oluşturmak için kullanılan dizi.
 int = eğitimlerin tamamlanma yüzdeleri.
-string = Kodlama.io yazısı ve ücretsiz yazısı.
+string = arama motorundaki kurs bul yazısı, Kodlama.io yazısı ve ücretsiz yazısı.
 anasayfa başlıkları da bir dizi ile gruplanabilir ya da string olarak oluşturulabilir.
 
 
