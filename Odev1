@@ -1,0 +1,6 @@
+str = metinsel ifadeleri tanımlamak için kullanılan veri tipidir. 
+int = tam sayıları tanımlamak için kullanılan veri tipidir.
+float = ondalıklı, virgüllü sayıları tanımlamak için kullanılan veri tipidir.
+complex = karmaşık sayıları tanımlamak için kullanılan veri tipidir.
+bool = true/false mantığıyla doğruysa yanlışsa şeklinde koşul belirtmek için de kullanılan veri tipidir.
+list/tuple/range = dizi tanımlamak için yani bir gruplama yaparak grubun elemanlarını sadece numaralarıyla ayırıp tek bir liste adıyla tanımlamak için kullanılan veri tipidir.
