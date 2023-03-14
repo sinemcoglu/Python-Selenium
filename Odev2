@@ -1,0 +1,47 @@
+ogrenciList = ["Elif Göker", "Kübra Ral", "Ayfer Durmuş","Nihan İnal", "Nilgün Yaşar", "Banu Özsay", "Berfin Alim"]
+#Listedeki tüm öğrencileri tek tek ekrana yazdıran döngü:
+for i in range(len(ogrenciList)):
+ print(ogrenciList[i])
+
+#isim soy isim ile listeye öğrenci ekleyen fonksiyon:
+def ogrekle(name):
+ ogrenciList.append(name)
+ekle=input("Eklemek istediğiniz öğrenci isim ve soyismini yazınız: ")
+ogrekle(ekle)
+print(ogrenciList)
+
+
+#isim soy isim ile eşleşen değeri listeden kaldıran fonksiyon:
+def ogrsil(sil):
+ ogrenciList.remove(sil)
+adsil = input("Silmek istediğiniz öğrenci isim ve soyismini yazınız: ")
+ogrsil(adsil)
+print(ogrenciList)
+
+#Listeye birden fazla öğrenci eklemeyi mümkün kılan fonksiyon:
+def ogrlerekle(ogrenciler):
+ ogrenciList.append(ogrenciler)
+sayi = int(input("Eklemek istediğiniz öğrenci sayısını giriniz: "))
+a=0
+for a in range(sayi): 
+ y=input("Eklemek istediğiniz öğrenci isim ve soyismini yazınız: ")
+ ogrlerekle(y)
+ a += 1
+
+#Öğrencinin listedeki index numarası öğrenci numarası olarak kabul edildiğini düşünerek öğrencinin numarasını öğrenmeyi mümkün kılan fonksiyon:
+def ogrno(no):
+  print(ogrenciList.index(no))
+ogrencino = input("Numarasını öğrenmek istediğiniz öğrencinin ismini giriniz: ")
+ogrno(ogrencino)
+
+#Listeden birden fazla öğrenci silmeyi mümkün kılan fonksiyon (döngü kullanınız):
+def delete(delname):
+ ogrenciList.remove(delname)  
+s = int(input("Silmek istediğiniz öğrenci sayısını giriniz: "))
+j=0
+while j < s:
+ ogrencisil = input("Silmek istediğiniz öğrencinin isim soyismini giriniz: ")
+ delete(ogrencisil)
+ j += 1
+
+print(ogrenciList)
